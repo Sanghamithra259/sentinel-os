@@ -1,0 +1,22 @@
+# C source and header files
+*.c     linguist-language=C
+*.h     linguist-language=C
+
+# Assembly files
+*.s     linguist-language=Assembly
+*.S     linguist-language=Assembly
+
+# Linker scripts
+*.ld    linguist-language=Assembly
+
+# Makefile
+Makefile linguist-language=Makefile
+
+# Ignore version control / build artifacts for language stats
+boot.o      linguist-vendored
+kernel.o    linguist-vendored
+arch/*.o    linguist-vendored
+*.elf       linguist-vendored
+*.bin       linguist-vendored
+iso/*       linguist-vendored
+sentinel.iso linguist-vendored
